@@ -19,8 +19,8 @@ item_damage_change = 0
 while new_item_input.upper() == "YES":
     if new_item_input.upper() == "YES":
         print("New Item Damage Modifier:")
-        item_damage_1_input = float(input("Enter % value of damage increase "))
-        item_damage_change = (item_damage_1_input / 100) + item_damage_change
+        item_damage_input = float(input("Enter % value of damage increase "))
+        item_damage_change = (item_damage_input / 100) + item_damage_change
         print("Would you like to enter a new item damage increase percent value?")
         new_item_input = input("Enter Yes/No: ")
 
